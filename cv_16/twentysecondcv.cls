@@ -22,6 +22,19 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 
+\usepackage[utf8]{inputenc} %Codificacion utf-8
+\usepackage[hidelinks=true]{hyperref}
+\hypersetup{
+	pdfcreator    = {\LaTeX{} with 'twentysecondcv' package},
+	%    pdfproducer   = {\LaTeX{}},% will/should be set automatically to the correct TeX engine used
+	pdfauthor     = {Leandro E. Colombo Viña},
+	pdftitle      = {Leandro E. Colombo Viña -- curriculum vitae},
+	pdfsubject    = {Resum\'{e} of Leandro E. Colombo Viña},
+	pdfkeywords   = {Leandro E. Colombo Viña, curriculum vit\ae{}, resum\'{e}}
+}
+
+
+
 %----------------------------------------------------------------------------------------
 %	 COLOURS
 %----------------------------------------------------------------------------------------
@@ -149,7 +162,7 @@
 		%------------------------------------------------
 		
 		\ifthenelse{\equal{\aboutme}{}}{}{
-			\profilesection{About me}
+			\profilesection{Sobre mí}
 			\begin{flushleft}
 				\aboutme
 			\end{flushleft}
@@ -162,7 +175,8 @@
 		\skills
 		\skillstext
 		\scriptsize
-		(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
+		(*) Escala desde 0 (poco) a 6 (mucho).
+%		(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
 			
 		%------------------------------------------------
 			
