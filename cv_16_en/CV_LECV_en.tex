@@ -1,0 +1,194 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{LEO.jpg} % Profile picture
+
+\cvname{Leandro E. \\Colombo Viña} % Your name
+\cvjobtitle{Professor // Developer} % Job title/career
+
+\cvdate{9 Octubre 1981} % Date of birth
+\cvaddress{Larrea 910 8\textdegree D, CABA} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+54 9 11 3001-5328} % Phone number
+\cvsite{http://leo.bitson.com.ar} % Personal website
+\cvmail{colomboleandro@bitson.com.ar} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Over the last 13 years I've been working on Education and since 2013 I've founded BITSON, with other IT professionals, our own democratic \& cooperative enterprise. In BITSON we develop free software and hardware, mainly with access control turnstiles and web applications. I've gained experience in every field related to web applications development.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Python/4.5},{REST APIs/4.2},{Linux/4.8},{DevOps/4},{Backend/4.9},{Frontend/2.3}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+\skillstext{{Entrepreneurship/3},{Teaching/4},{Time Management/4},{Analyst/5}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+I'm a FLOSS enthusiast. I've been using Free and Open Source Software since 2009. Promoting, attending, participating and organizing events related to FLOSS.
+I work using the industry best practices like standard coding styles, git-flow, SCRUM, TDD and many others.
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{since 2017}{Digital Technologies for Education}{UNLa}{\footnotesize in progress}
+	\twentyitem{2014-2015}{Computer Science Teacher}{INSPT-UTN}{}
+	\twentyitem{2011-2014}{Applied Informatics}{INSPT-UTN}{\footnotesize Grade point average: 9.29. National flag bearer 2013}
+	\twentyitem{2008-2008}{Instructor}{CFP 34}{} %{\footnotesize Job education \& trainning.}
+	\twentyitem{1995-2000}{Electronics Technician}{Pío IX (A-66)}{} %{\footnotesize High school.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Courses \& Certifications}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{2016}{Scrum Grand Master. {\scriptsize SCEU-FRBA-UTN}}
+	\twentyitemshort{2015}{Digital \& Social Media Operator. {\scriptsize FUNDESCO, Ministry of Labor}}
+	\twentyitemshort{2015}{Remotee worker. {\scriptsize FUNDESCO, Ministry of Labor}}
+	\twentyitemshort{2014}{Linux Certified Security System. {\scriptsize Carrera Linux Argentina}}
+	\twentyitemshort{2013}{C Expert. {\scriptsize Carrera Linux Argentina}}
+	\twentyitemshort{2012}{Project Management Executive Program. {\scriptsize SCEU-FRBA-UTN}}
+	\twentyitemshort{2011}{Linux System Administrator Expert. {\scriptsize Carrera Linux Argentina}}
+	\twentyitemshort{2008}{Multimedia products creation. {\scriptsize CFP 34}}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+%
+%\begin{twentyshort} % Environment for a short list with no descriptions
+%	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+%	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+%	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2014-hoy}{Business Development Manager, Founding Partner, Treasurer.}{BITSON}{Project Manager. 
+		Software \& Hardware development. Professional Trainning.\url{http://www.bitson.com.ar/}}
+	\twentyitem{2010-hoy}{Associate Professor}{IFTS18}{Teaching in the career of Systems Analysis.}
+	\twentyitem{2011-2014}{Consultant}{freelance}{Networking. GNU/Linux System administration. Professional Trainning.}
+	\twentyitem{2007-2015}{Instructor}{CFP34}{Programming with Python. GNU/Linux Basics. Networking in GNU/Linux. Educational Resources for teachers 2.0. Informatics 101.}
+	\twentyitem{2010-2014}{Community Manager}{CFP34}{Google Apps for Educations administrator \& social media.}
+	\twentyitem{2004-2014}{SysAdmin / Teacher}{Pío IX}{}
+	\twentyitem{2000-2004}{Laboratory technician}{Celtronics SRL/IMD SRL}{}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Other information}
+
+%\subsection{Review}
+%
+%{\small I've gained experience in every field related to web applications, including but not limited to: Software Development / RESTful APIs / Authentication \& Authorization Strategies / Back-end development / Software Architecture / Automatic Deployments / Continuous Integration / Continuous Delivery / Network, Server \& Application Benchmarking.
+%
+%I work using the industry best practices like standard coding styles, git-flow, SCRUM, TDD, etc. I love working with Python and Flask and I frequently use tools like PostgreSQL, Celery, Docker, Git, SQLAlchemy, Ansible and many others.
+%
+%Specialties: API REST, Python, Flask, R\&D, Free Software, Python, GNU/Linux, DevOps}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{2016}{Organizer Python Conference Argentina, Bahía Blanca.}
+	\twentyitemshort{2015}{Founding Partner \& Treasurer Python Argentina NGO.}
+	\twentyitemshort{2014-2015}{Speaker at FLISOL \url{http://bitson.com.ar/flisol/git}}
+	\twentyitemshort{2014}{Salesian Cooperators Center Manager.}
+	\twentyitemshort{2010-2012}{Conference on Educational Technologies}
+	\twentyitemshort{2011}{Course Continuing Education Professional Technical Education - DGEGP}
+	\twentyitemshort{2008}{Digital Reflex Photography, Digital edition.}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+
+
+%\subsection{Review}
+%
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
