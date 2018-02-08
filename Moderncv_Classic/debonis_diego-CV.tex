@@ -1,0 +1,169 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+% \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{textcomp}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{8cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Diego} % Your first name
+\familyname{De Bonis} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Adolfo Alsina 1760 10°42}{Buenos Aires, Argentina}
+\mobile{Skype: diegodebonis}
+\phone{(+54) 11 4381-2971}
+%\fax{(000) 111 1113}
+\email{ddebonis@bitson.group}
+\homepage{github.com/diegodebonis} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+\extrainfo{\hyperref{https://linkedin.com/in/diego-de-bonis-45136a29/}{}{}{linkedin.com}}
+\photo[70pt][0.4pt]{DD} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+% \quote{Partner and Senior Developer at Unixono}
+\quote{Semi Senior Frontend Developer}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{}{Universidad Tecnologica Nacional}{Applied informatics}{}{}{}  % Arguments not required can be left empty
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{Nov-2017 Jan-2018}{Lead Frontend Developer at Bitson}{Andes Project}{}{}{
+Web apps for turist packages sales. \textit{Technologies: ReactJS, material-design, material-ui, gulp, nodeJS}}
+
+\cventry{Mar-2017 Nov-2017}{Lead Frontend Developer, Designer at Bitson}{SCA Project}{}{}{
+Refactor Web app for access control system. \textit{Technologies: jQuery, PHP, CSS3, HTML5, Git Flow, Bootstrap}}
+
+\cventry{Feb-2017 Mar-2017}{Lead Frontend Developer at Bitson}{DOMI Project}{}{}{
+Refactor. \textit{Technologies: ReactJS, CSS3, HTML5, material-design, material-ui, gulp, nodeJS}}
+
+\cventry{Nov-2016 Feb-2017}{Lead Frontend Developer, Designer at Bitson}{DOMI Project}{}{}{
+App for control and manage reserves and properties. \textit{Technologies: jQuery, PHP, CSS3, HTML5, Git Flow, material-design, materializecss}}
+
+\cventry{May-2016 Nov-2016}{Lead Frontend Developer, Designer at Bitson}{SGS Project}{}{}{
+Web app for managing club members. \textit{Technologies: jQuery, PHP, CSS3, HTML5, Git Flow, Bootstrap}}
+
+\cventry{Jan-2015 May-2016}{Web UI Developer at Globant}{Disney Cruise Line, Disney Itinerary}{}{}{
+\textit{Technologies: Javascript, HTML, CSS, angularJS, bootstrap, PHP, Zend framework, Git, nodeJS.}}
+
+\cventry{Aug-2014 Jan-2015}{Web Developer at DS}{Frontend development, webpages maintenance }{}{}{
+\textit{Technologies: Javascript, HTML, CSS, bootstrap, PHP,  foundation, jQuery.}}
+
+\cventry{Nov-2010 Jan-2014}{Campaign Manager at MRM}{Campaigns and catalogs creations for DELL europe.}{}{}{
+\textit{Technologies: SQL, SAS}}
+
+\cventry{May-2010 Nov-2010}{Mobile Developer at Sabre Holdings}{Mobile developer using Sencha framework.}{}{}{
+\textit{Technologies: javascript, sencha UI}}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cventry{Basic}{Programming Languages and Frameworks}{}{}{}{\textit{C++, C\#, Java, J2ME, MEAN, ASP.NET, XML, Grunt}}
+
+\cventry{Intermediate}{Programming Languages and Frameworks}{}{}{}{\textit{Node.js, Gulp, MySQL, ReactJS, AngularJS, PHP}}
+
+\cventry{Advanced}{Programming Languages and Frameworks}{}{}{}{\textit{Javascript, CSS, jQuery}}
+
+\cvitem{Tools}{Linux, Git, Git Flow, ESLinter, npm}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+\begin{small}
+%\cvitemwithcomment{Spanish}{Native Speaker}{}
+%\cvitemwithcomment{English}{Intermediate}{}
+\cvlistitem{\textbf{Spanish:} Native Speaker}
+\cvlistitem{\textbf{English:} Intermediate}
+\end{small}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+% \section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+% \cvlistdoubleitem{Sports, Motorbikes}{}
+%\cvlistdoubleitem{Robotics}{}
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+% \recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Linkedin: https://ar.linkedin.com/in/carneroalejandro} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+\end{document}
